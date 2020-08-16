@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Please input your password!" android:layout_centerInParent="true"/>
+    <EditText android:id="@+id/pwdInput" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/textView1" android:inputType="textPassword"/>
+    <Button android:id="@+id/submitBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Submit" android:layout_below="@+id/pwdInput"/>
+</RelativeLayout>
